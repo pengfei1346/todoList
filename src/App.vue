@@ -1,0 +1,21 @@
+<template>
+  <div id="app">
+    <router-view/>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
+
+<style lang="less">
+  @import './style/init.css';
+  *{
+    text-decoration: none;
+  a:hover{
+    text-decoration: none;
+  }
+  }
+</style>
